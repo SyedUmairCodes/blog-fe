@@ -75,8 +75,43 @@
     </header>
 
     <!-- Search Section -->
-    <div class="search"></div>
+    <div class="search-form-container container" id="search-form-container">
+      <div class="form-container-inner">
+        <form action="" class="form">
+          <input type="text" class="form-input" placeholder="Search..." />
+          <button class="btn form-btn" type="submit">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+        <span class="form-note">Press ESC to close.</span>
+      </div>
+      <button class="btn form-close-btn place-items-center" id="form-close-btn">
+        <i class="ri-close-line"></i>
+      </button>
+    </div>
   </body>
+
+  <!-- Featured articles section -->
+
+  <section class="features-articles section-header-offset">
+    <div class="features-articles-container container dgrid">
+      <div class="featured-content d-grid">
+        <div class="headline-banner">
+          <h3 class="healine fancy-border">
+            <span class="place-items-center">Featured Articles</span>
+          </h3>
+          <span class="headline-description"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit.</span
+          >
+        </div>
+
+        <a
+          href="./post.html"
+          class="article featured-article featured-article-1"
+        ></a>
+      </div>
+    </div>
+  </section>
 
   <!-- JavaScript -->
   <script src="./assets/js/main.js"></script>
